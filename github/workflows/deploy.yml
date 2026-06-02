@@ -3,7 +3,7 @@ name: Deploy Vue.js to GitHub Pages
 on:
   push:
     branches:
-      - master # یا اگر برنچ اصلی شما master است، اینجا main را به master تغییر دهید
+      - fateme # یا اگر برنچ اصلی شما master است، اینجا main را به master تغییر دهید
 
 jobs:
   build-and-deploy:
