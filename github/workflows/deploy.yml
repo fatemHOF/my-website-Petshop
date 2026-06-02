@@ -1,0 +1,33 @@
+name: Deploy Vue.js to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # یا اگر برنچ اصلی شما master است، اینجا main را به master تغییر دهید
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3 # برای دریافت کد پروژه
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # یا نسخه Node.js که استفاده می‌کنید
+
+      - name: Install dependencies
+        run: npm install # یا yarn install اگر از yarn استفاده می‌کنید
+
+      - name: Build Vue.js app
+        run: npm run build # یا yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist # پوشه‌ای که Vite خروجی build را در آن قرار می‌دهد
+          # اگر می‌خواهید سایت در ریشه دامنه اصلی (مثلا username.github.io) باشد،
+          # و نه در پوشه نام ریپازیتوری، مقدار زیر را اضافه کنید:
+          # cname: your.domain.com # اگر دامنه شخصی دارید
