@@ -9,6 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
+    base: '/my-website-Petshop/', // <--- این خط خیلی مهمه!
+
   ],
   resolve: {
     alias: {
@@ -16,3 +18,14 @@ export default defineConfig({
     },
   },
 })
+
+
+// import { defineConfig } from 'vite'
+// import vue from '@vue/plugin-vue'
+
+// // https://vitejs.dev/config/
+// export default defineConfig({
+//   plugins: [vue()],
+//   base: '/my-website-Petshop/', // <--- این خط خیلی مهمه!
+// })
+
