@@ -195,16 +195,17 @@
         <div class="counter__area-two counter__area-bg" :style="{ backgroundImage: `url(${bannerBg})` }">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+
+                    <div class="col-lg-4 col-sm-6">
                         <div class="counter__item-two">
                             <div class="counter__item-shape">
                                 <img src="../assets/img/images/h2_counter_shape.png" alt="">
                             </div>
-                            <span class="count odometer" data-count="5985"></span>
+                            <span class="count odometer" data-count="5985">589</span>
                             <p>خانواده‌های خوشحال</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="counter__item-two">
                             <div class="counter__item-shape">
                                 <img src="../assets/img/images/h2_counter_shape.png" alt="">
@@ -212,22 +213,24 @@
                             <span class="count odometer" data-count="1322"></span>
                             <p>ایالات جدید لیست شده</p>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
+                    </div> -->
+                    
+                    <div class="col-lg-4 col-sm-6">
                         <div class="counter__item-two">
                             <div class="counter__item-shape">
                                 <img src="../assets/img/images/h2_counter_shape.png" alt="">
                             </div>
-                            <span class="count odometer" data-count="3102"></span>
+                            <span class="count odometer" data-count="3102">521</span>
                             <p>پرورش اصلی</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+
+                    <div class="col-lg-4 col-sm-6">
                         <div class="counter__item-two">
                             <div class="counter__item-shape">
                                 <img src="../assets/img/images/h2_counter_shape.png" alt="">
                             </div>
-                            <span class="count odometer" data-count="1125"></span>
+                            <span class="count odometer" data-count="1125">210</span>
                             <p>جوایز سالانه</p>
                         </div>
                     </div>

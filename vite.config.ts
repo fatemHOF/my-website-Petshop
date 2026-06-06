@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    base: '/my-website-Petshop/', // <--- این خط خیلی مهمه!
+    // base: '/my-website-Petshop/', // <--- این خط خیلی مهمه!
 
   ],
   resolve: {

@@ -103,7 +103,10 @@
                                 </div>
                                 <h5 class="title">دیگر ویدیوهای <br> مارا تماشا کنید</h5>
                                 <a href="https://www.youtube.com/watch?v=XdFfCPK5ycw" class="popup-video play-btn">
-                                <i class="fas fa-play"></i></a>
+                                <!-- <i class="fas fa-play"></i> -->
+
+                                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill="white" d="M256 0c70.413 0 134.42 28.798 180.811 75.188C483.203 121.579 512 185.587 512 256c0 70.413-28.797 134.42-75.189 180.811C390.42 483.203 326.413 512 256 512c-70.413 0-134.421-28.797-180.812-75.189C28.798 390.42 0 326.413 0 256c0-70.415 28.796-134.421 75.188-180.812C121.579 28.796 185.585 0 256 0zm85.491 271.424c15.356-9.913 15.307-20.952 0-29.733L218.36 155.957c-12.508-7.848-25.56-3.24-25.213 13.097l.491 172.482c1.077 17.712 11.182 22.569 26.096 14.377l121.757-84.489zm74.518-175.433C374.936 54.918 318.293 29.421 256 29.421c-62.294 0-118.936 25.495-160.009 66.57-41.075 41.073-66.57 97.715-66.57 160.009 0 62.293 25.497 118.936 66.57 160.009 41.073 41.074 97.716 66.569 160.009 66.569 62.293 0 118.936-25.495 160.009-66.569 41.074-41.073 66.569-97.716 66.569-160.009 0-62.293-25.495-118.936-66.569-160.009z"/></svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -421,7 +424,8 @@
         <section class="counter__area">
             <div class="container">
                 <div class="row flex-row-reverse align-items-center justify-content-center">
-                    <div class="col-lg-5 col-md-8 order-0 order-lg-2">
+
+                    <div class="col-lg-6 col-md-8 order-0 order-lg-2">
                         <div class="counter__img">
                             <div class="mask-img-wrap">
                                 <img src="../assets/img/images/counter_img.jpg" alt="img">
@@ -434,7 +438,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-7">
+
+                    <div class="col-lg-6 col-md-7">
                         <div class="counter__content">
                             <div class="section__title white-title mb-10">
                                 <span class="sub-title">اعتماد شما اولویت ماست
@@ -450,7 +455,8 @@
                                 class="injectable rotate-180">خواندن بیشتر </router-link>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-5 order-3">
+
+                    <!-- <div class="col-lg-3 col-md-5 order-3">
                         <div class="counter__item-wrap rtl">
                             <div class="counter__item">
                                 <h2 class="count"><span class="odometer" data-count="27"></span>+</h2>
@@ -465,7 +471,8 @@
                                 <p class="text-left">نظرات مشتریان </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+
                 </div>
             </div>
             <div class="counter__shape">
